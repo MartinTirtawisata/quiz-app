@@ -93,11 +93,18 @@ button:active {
 .form-question input[type="radio"]+label {
     display: inline-block;
     width: auto;
+
+    cursor: pointer;
 }
 
-label:hover, label:focus, label:active {
+label:hover, input:focus, label:active {
     background-color: teal;
     font-size:26px;
+}
+
+button:focus {
+    background-color: teal;
+    color: black;
 }
 
 .tick-sign {

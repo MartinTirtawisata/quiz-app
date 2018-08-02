@@ -67,7 +67,7 @@ function renderQuestion(){
 }
 
 function answerSelected(){
-  $('form').on('submit','.js-submit-button', function(event){
+  $('form').on('submit', function(event){
     // event.preventDefault();
 
     let radioValue = $("input[name='choices']:checked").val();
